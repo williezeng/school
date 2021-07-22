@@ -1,0 +1,10 @@
+# beginning good = 97%
+bipropellant_rocket_fuel_tau_p = 40
+bipropellant_rocket_fuel_tau_i = 2
+bipropellant_rocket_fuel_tau_d = 2
+
+bipropellant_rocket_oxidizer_tau_p = 10
+bipropellant_rocket_oxidizer_tau_i = 2
+bipropellant_rocket_oxidizer_tau_d = 2
+
+

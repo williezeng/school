@@ -1,0 +1,286 @@
+[1.1102230246251565e-15]
+[0.0]
+[-0.4229298004870852]
+[2.4931355189020445]
+[-3.2976187031799915]
+[0.4985394373951033]
+[1.4893656185710529]
+[0.5482754486531749]
+
+[-1.2434497875801753e-14]
+[-9.992007221626409e-16]
+[-1.496614697606672]
+[3.5719620573912647]
+[-0.8348169807678101]
+[3.573923390835473]
+[1.285278610208291]
+[3.245217519369923]
+[2.797788284980413]
+[3.056005309677229]
+[5.420748189496968]
+[4.026881896389554]
+[-1.4904073233063562]
+[2.4138244120764556]
+[5.670009585439976]
+[2.307399872076668]
+[-1.5769011718523123]
+[1.374487585613777]
+[5.264714295547805]
+[1.779324983643751]
+[-1.3584579577924885]
+[0.41999941572649335]
+[-1.567754284498018]
+[-0.44988344850489]
+[0.48868838992976116]
+[-0.493946335786441]
+[1.506162810799351]
+[-0.49296084351318703]
+[2.442659972013069]
+[-0.6593395082122528]
+[4.6221402505983535]
+[-0.3124992078345804]
+[5.497557819877823]
+[-0.7408948338039207]
+
+[3.1086244689504383e-15]
+[5.717648576819556e-15]
+[-4.506319934377298]
+[3.9351359158798163]
+[-3.657414567474574]
+[3.128518344659874]
+[-2.5423829693912605]
+[3.292968599471634]
+[-1.2620687504583579]
+[3.5994973392790754]
+[-0.3254001260884247]
+[3.4886046605692713]
+[1.9566583357853071]
+[3.3113585766893676]
+[-1.7077795707459245]
+[2.508037479962284]
+[1.3381986388805032]
+[2.6198282622592775]
+[-4.726409706472351]
+[1.7504691628833058]
+[-1.5834049751267112]
+[1.5434968322361777]
+[1.5193198882537216]
+[1.545844073025684]
+[-2.4971425178418967]
+[0.562419899632812]
+[1.6428599716186776]
+[0.5469614476479503]
+[-5.8228055620452945]
+[0.1396712152713931]
+[-3.6052378012203845]
+[-0.7258437159392908]
+[-1.494977330923875]
+[-0.4736944368320811]
+[-0.5036773655287075]
+[-0.49891007602555293]
+[0.4752462060622322]
+[-0.47761619663608595]
+[1.4650645294110878]
+[-0.4723721884307838]
+
+[8.881784197001252e-16]
+[2.220446049250313e-15]
+[2.097975985988188]
+[4.0835818266518356]
+[0.11493850959704677]
+[3.45859716110089]
+[1.567238147670174]
+[1.284361429777713]
+[4.086160062175195]
+[-0.512881079677761]
+
+[3.1086244689504383e-15]
+[-4.884981308350689e-15]
+[-1.4849439933416337]
+[1.4603754195593406]
+[0.4549673885833938]
+[1.4825314214496155]
+[2.5693421568445194]
+[1.4135679247861592]
+[3.8088487932203465]
+[1.525796221229756]
+[4.105287985885982]
+[2.0457742524570928]
+[5.385240189693819]
+[0.6927980240310347]
+[-1.4838280987153643]
+[0.545726439791395]
+[2.7129059544393797]
+[0.35076774331825034]
+[5.463494800367023]
+[0.034006227547706214]
+[-1.4029682136890735]
+[-0.4862878911315698]
+[0.48339975918170053]
+[-0.5105419959589619]
+[5.596066098297795]
+[0.21338979803503433]
+[-1.422060955322603]
+[-1.6078220630903868]
+[4.741727623448702]
+[-1.013601166323948]
+[-1.4074312039023127]
+[-2.5160436325239686]
+[0.08962422892478639]
+[-2.4492454382413835]
+[2.4839504624909496]
+[-2.153029542868419]
+
+[3.552713678800501e-15]
+[3.4416913763379853e-15]
+[-2.0090482361198596]
+[4.170529078107557]
+[5.3367203400491166]
+[3.9310640259261875]
+[5.990081270640024]
+[3.78808336551329]
+[6.944258683903897]
+[3.5555353699274663]
+[7.672314820306588]
+[4.206990499113563]
+[7.49371664358674]
+[2.020523142325519]
+[-2.7626286810802014]
+[2.1784718936213583]
+[-2.949095028293396]
+[1.2082006260621856]
+[-2.6675715013601184]
+[0.7760270572357892]
+[-2.2179546549591773]
+[-0.5689911271893108]
+[6.958683896902422]
+[0.6779286786881614]
+[-2.1952203055298334]
+[-1.6923313043088672]
+[-1.3741574731387711]
+[-1.4220575082521894]
+[-0.47121807157179063]
+[-1.489247766568787]
+[0.5271670407449456]
+[-1.4206930590005893]
+[4.973249997634971]
+[-0.7523284779719005]
+[5.438795379964692]
+[-1.1309176867173487]
+[6.558888756755582]
+[-2.1136073825545]
+[8.14742787347275]
+[-0.6557431089074475]
+
+
+-----------
+Part B Test Case 1
+  Failed: Traceback (most recent call last):
+  File "testing_suite_gem_finder.py", line 144, in execute_student_plan
+    state.generate_measurements())
+  File "/Users/Willie.Zeng3@ibm.com/artificial_intel/Gem_Finder__SLAM__export/gem_finder.py", line 221, in next_move
+    raise NotImplementedError
+NotImplementedError
+
+  Credit: 0.0
+
+-----------
+Part B Test Case 2
+  Failed: Traceback (most recent call last):
+  File "testing_suite_gem_finder.py", line 144, in execute_student_plan
+    state.generate_measurements())
+  File "/Users/Willie.Zeng3@ibm.com/artificial_intel/Gem_Finder__SLAM__export/gem_finder.py", line 221, in next_move
+    raise NotImplementedError
+NotImplementedError
+
+  Credit: 0.0
+
+-----------
+Part B Test Case 3
+  Failed: Traceback (most recent call last):
+  File "testing_suite_gem_finder.py", line 144, in execute_student_plan
+    state.generate_measurements())
+  File "/Users/Willie.Zeng3@ibm.com/artificial_intel/Gem_Finder__SLAM__export/gem_finder.py", line 221, in next_move
+    raise NotImplementedError
+NotImplementedError
+
+  Credit: 0.0
+
+-----------
+Part B Test Case 4
+  Failed: Traceback (most recent call last):
+  File "testing_suite_gem_finder.py", line 144, in execute_student_plan
+    state.generate_measurements())
+  File "/Users/Willie.Zeng3@ibm.com/artificial_intel/Gem_Finder__SLAM__export/gem_finder.py", line 221, in next_move
+    raise NotImplementedError
+NotImplementedError
+
+  Credit: 0.0
+
+-----------
+Part B Test Case 5
+  Failed: Traceback (most recent call last):
+  File "testing_suite_gem_finder.py", line 144, in execute_student_plan
+    state.generate_measurements())
+  File "/Users/Willie.Zeng3@ibm.com/artificial_intel/Gem_Finder__SLAM__export/gem_finder.py", line 221, in next_move
+    raise NotImplementedError
+NotImplementedError
+
+  Credit: 0.0
+
+-----------
+Part B Test Case 6
+  Failed: Traceback (most recent call last):
+  File "testing_suite_gem_finder.py", line 144, in execute_student_plan
+    state.generate_measurements())
+  File "/Users/Willie.Zeng3@ibm.com/artificial_intel/Gem_Finder__SLAM__export/gem_finder.py", line 221, in next_move
+    raise NotImplementedError
+NotImplementedError
+
+  Credit: 0.0
+
+-----------
+Part B Test Case 7
+  Failed: Traceback (most recent call last):
+  File "testing_suite_gem_finder.py", line 144, in execute_student_plan
+    state.generate_measurements())
+  File "/Users/Willie.Zeng3@ibm.com/artificial_intel/Gem_Finder__SLAM__export/gem_finder.py", line 221, in next_move
+    raise NotImplementedError
+NotImplementedError
+
+  Credit: 0.0
+
+-----------
+Part B Test Case 8
+  Failed: Traceback (most recent call last):
+  File "testing_suite_gem_finder.py", line 144, in execute_student_plan
+    state.generate_measurements())
+  File "/Users/Willie.Zeng3@ibm.com/artificial_intel/Gem_Finder__SLAM__export/gem_finder.py", line 221, in next_move
+    raise NotImplementedError
+NotImplementedError
+
+  Credit: 0.0
+
+-----------
+Part B Test Case 9
+  Failed: Traceback (most recent call last):
+  File "testing_suite_gem_finder.py", line 144, in execute_student_plan
+    state.generate_measurements())
+  File "/Users/Willie.Zeng3@ibm.com/artificial_intel/Gem_Finder__SLAM__export/gem_finder.py", line 221, in next_move
+    raise NotImplementedError
+NotImplementedError
+
+  Credit: 0.0
+
+
+
+
+
+
+
+
+
+part A score: 0.00
+part B score: 0.00
+part C score: 0.00
+score: 0.00

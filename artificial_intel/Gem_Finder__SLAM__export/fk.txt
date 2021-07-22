@@ -1,0 +1,124 @@
+8.881784197001252e-16
+
+-9.769962616701378e-15
+
+3.552713678800501e-15
+
+1.7763568394002505e-15
+
+8.881784197001252e-16
+
+3.552713678800501e-15
+
+
+-----------
+Part B Test Case 1
+  Failed: Traceback (most recent call last):
+  File "testing_suite_gem_finder.py", line 144, in execute_student_plan
+    state.generate_measurements())
+  File "/Users/Willie.Zeng3@ibm.com/artificial_intel/Gem_Finder__SLAM__export/gem_finder.py", line 220, in next_move
+    raise NotImplementedError
+NotImplementedError
+
+  Credit: 0.0
+
+-----------
+Part B Test Case 2
+  Failed: Traceback (most recent call last):
+  File "testing_suite_gem_finder.py", line 144, in execute_student_plan
+    state.generate_measurements())
+  File "/Users/Willie.Zeng3@ibm.com/artificial_intel/Gem_Finder__SLAM__export/gem_finder.py", line 220, in next_move
+    raise NotImplementedError
+NotImplementedError
+
+  Credit: 0.0
+
+-----------
+Part B Test Case 3
+  Failed: Traceback (most recent call last):
+  File "testing_suite_gem_finder.py", line 144, in execute_student_plan
+    state.generate_measurements())
+  File "/Users/Willie.Zeng3@ibm.com/artificial_intel/Gem_Finder__SLAM__export/gem_finder.py", line 220, in next_move
+    raise NotImplementedError
+NotImplementedError
+
+  Credit: 0.0
+
+-----------
+Part B Test Case 4
+  Failed: Traceback (most recent call last):
+  File "testing_suite_gem_finder.py", line 144, in execute_student_plan
+    state.generate_measurements())
+  File "/Users/Willie.Zeng3@ibm.com/artificial_intel/Gem_Finder__SLAM__export/gem_finder.py", line 220, in next_move
+    raise NotImplementedError
+NotImplementedError
+
+  Credit: 0.0
+
+-----------
+Part B Test Case 5
+  Failed: Traceback (most recent call last):
+  File "testing_suite_gem_finder.py", line 144, in execute_student_plan
+    state.generate_measurements())
+  File "/Users/Willie.Zeng3@ibm.com/artificial_intel/Gem_Finder__SLAM__export/gem_finder.py", line 220, in next_move
+    raise NotImplementedError
+NotImplementedError
+
+  Credit: 0.0
+
+-----------
+Part B Test Case 6
+  Failed: Traceback (most recent call last):
+  File "testing_suite_gem_finder.py", line 144, in execute_student_plan
+    state.generate_measurements())
+  File "/Users/Willie.Zeng3@ibm.com/artificial_intel/Gem_Finder__SLAM__export/gem_finder.py", line 220, in next_move
+    raise NotImplementedError
+NotImplementedError
+
+  Credit: 0.0
+
+-----------
+Part B Test Case 7
+  Failed: Traceback (most recent call last):
+  File "testing_suite_gem_finder.py", line 144, in execute_student_plan
+    state.generate_measurements())
+  File "/Users/Willie.Zeng3@ibm.com/artificial_intel/Gem_Finder__SLAM__export/gem_finder.py", line 220, in next_move
+    raise NotImplementedError
+NotImplementedError
+
+  Credit: 0.0
+
+-----------
+Part B Test Case 8
+  Failed: Traceback (most recent call last):
+  File "testing_suite_gem_finder.py", line 144, in execute_student_plan
+    state.generate_measurements())
+  File "/Users/Willie.Zeng3@ibm.com/artificial_intel/Gem_Finder__SLAM__export/gem_finder.py", line 220, in next_move
+    raise NotImplementedError
+NotImplementedError
+
+  Credit: 0.0
+
+-----------
+Part B Test Case 9
+  Failed: Traceback (most recent call last):
+  File "testing_suite_gem_finder.py", line 144, in execute_student_plan
+    state.generate_measurements())
+  File "/Users/Willie.Zeng3@ibm.com/artificial_intel/Gem_Finder__SLAM__export/gem_finder.py", line 220, in next_move
+    raise NotImplementedError
+NotImplementedError
+
+  Credit: 0.0
+
+
+
+
+
+
+
+
+
+part A score: 0.00
+part B score: 0.00
+part C score: 0.00
+score: 0.00
