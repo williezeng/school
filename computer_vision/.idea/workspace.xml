@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cc5be888-202c-4344-b0fc-88daac8ba76c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gmkjZrEyzUKe85LS1ZOVoYKQbV" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CNN_final_project/models" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CNN_final_project/models" />
+      <recent name="$PROJECT_DIR$/CNN_final_project/output" />
+      <recent name="$PROJECT_DIR$/CNN_final_project/input" />
+      <recent name="$PROJECT_DIR$/digit_classification-master/saved" />
+      <recent name="$PROJECT_DIR$/digit_classification-master/model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CNN_final_project" />
+      <recent name="$PROJECT_DIR$/CNN_final_project/models" />
+      <recent name="$PROJECT_DIR$/digit_classification-master/input" />
+      <recent name="$PROJECT_DIR$/digit_classification-master/model" />
+      <recent name="$PROJECT_DIR$/digit_classification-master/saved" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc5be888-202c-4344-b0fc-88daac8ba76c" name="Default Changelist" comment="" />
+      <created>1598727290739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598727290739</updated>
+      <workItem from="1598727296418" duration="23431000" />
+      <workItem from="1599509966911" duration="10060000" />
+      <workItem from="1599785362328" duration="14715000" />
+      <workItem from="1599861397895" duration="68739000" />
+      <workItem from="1600553643410" duration="3927000" />
+      <workItem from="1600824111837" duration="5268000" />
+      <workItem from="1600912280014" duration="1730000" />
+      <workItem from="1601084219758" duration="16011000" />
+      <workItem from="1601325055380" duration="3154000" />
+      <workItem from="1601960153278" duration="8748000" />
+      <workItem from="1602127244425" duration="17638000" />
+      <workItem from="1602600462452" duration="98000" />
+      <workItem from="1603322630062" duration="4315000" />
+      <workItem from="1603690120717" duration="50028000" />
+      <workItem from="1604661866165" duration="46108000" />
+      <workItem from="1606179541066" duration="13497000" />
+      <workItem from="1606278043112" duration="28108000" />
+      <workItem from="1606617379634" duration="14717000" />
+      <workItem from="1606686141093" duration="7472000" />
+      <workItem from="1606698098557" duration="25002000" />
+      <workItem from="1606878919946" duration="33666000" />
+      <workItem from="1606934322077" duration="15887000" />
+      <workItem from="1606953302421" duration="3701000" />
+      <workItem from="1607972006728" duration="488000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

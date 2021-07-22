@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/PS1_export/ps01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PS__export/ps02" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PS3_export/ps03" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PS4_export/ps04" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PS5_export/ps05" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PS6_export/ps06" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/digit_classification-master" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CNN_final_project" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="projectConfiguration" value="pytest" />
+    <option name="PROJECT_TEST_RUNNER" value="pytest" />
+  </component>
+</module>

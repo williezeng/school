@@ -1,0 +1,5 @@
+tensorflow==2.2.0
+numpy
+opencv-python
+keras
+h5py==2.10.0
