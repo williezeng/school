@@ -33,31 +33,56 @@ class Switch(StpSwitch):
         # -self.switchID                   (the ID number of this switch object)
         # -self.links                      (the list of swtich IDs connected to this switch object)
         super(Switch, self).__init__(idNum, topolink, neighbors)
-
-        # TODO: Define a data structure to keep track of which links are part of / not part of the spanning tree.
+        self.rootID = self.switchID
+        self.distance = 0
+        self.switchthrough = self.switchID
+        self.active_links = {neighbor:True for neighbor in neighbors} # will be overwritten anyway as the messages come
 
     def send_initial_messages(self):
-        # TODO: This function needs to create and send the initial messages from this switch.
-        #      Messages are sent via the superclass method send_message(Message msg) - see Message.py.
-        #      Use self.send_message(msg) to send this.  DO NOT use self.topology.send_message(msg)
+        for neighbor in self.links:
+            message = Message(self.rootID, self.distance, self.switchID, neighbor, False)
+            self.send_message(message)
         return
 
     def process_message(self, message):
-        # TODO: This function needs to accept an incoming message and process it accordingly.
-        #      This function is called every time the switch receives a new message.
-        return
+        if message.root < self.rootID:
+            self.rootID = message.root
+            self.distance = message.distance + 1
+            self.switchthrough = message.origin
+            pass_throu_map = {neigh: (True if neigh == self.switchthrough else False) for neigh in self.links}
+            for neighbour in self.links:
+                msg = Message(self.rootID, self.distance, self.switchID, neighbour, pass_throu_map[neighbour])
+                self.send_message(msg)
+        # after many messages have been sent, video 35:00
+        elif message.root == self.rootID:
+            if message.distance + 1 < self.distance:
+                self.distance = message.distance + 1
+                self.switchthrough = message.origin
+                pass_throu_map = {neigh: (True if neigh == self.switchthrough else False) for neigh in self.links}
+                for neighbour in self.links:
+                    msg = Message(self.rootID, self.distance, self.switchID, neighbour, pass_throu_map[neighbour])
+                    self.send_message(msg)
+            elif message.distance + 1 == self.distance:
+                if message.origin < self.switchthrough:
+                    self.active_links[self.switchthrough] = False
+                    self.switchthrough = message.origin
+                    pass_throu_map = {neigh:(True if neigh == self.switchthrough else False) for neigh in self.links}
+                    for neighbour in self.links:
+                        msg = Message(self.rootID, self.distance, self.switchID, neighbour, pass_throu_map[neighbour])
+                        self.send_message(msg)
+                elif message.origin > self.switchthrough:
+                    self.active_links[message.origin] = False
+                    pass_throu_map = {neigh:(True if neigh == self.switchthrough else False) for neigh in self.links}
+                    for neighbour in self.links:
+                        msg = Message(self.rootID, self.distance, self.switchID, neighbour, pass_throu_map[neighbour])
+                        self.send_message(msg)
+            else:
+                if message.pathThrough is True:
+                    self.active_links[message.origin] = True
+                else:
+                    self.active_links[message.origin] = False
+
 
     def generate_logstring(self):
-        # TODO: This function needs to return a logstring for this particular switch.  The
-        #      string represents the active forwarding links for this switch and is invoked 
-        #      only after the simulaton is complete.  Output the links included in the 
-        #      spanning tree by increasing destination switch ID on a single line. 
-        #      Print links as '(source switch id) - (destination switch id)', separating links 
-        #      with a comma - ','.  
-        #
-        #      For example, given a spanning tree (1 ----- 2 ----- 3), a correct output string 
-        #      for switch 2 would have the following text:
-        #      2 - 1, 2 - 3
-        #      A full example of a valid output file is included (sample_output.txt) with the project skeleton.
-        return "switch log string, do not return a static string, build the log string"
-
+        sorted_log_string = ["{first} - {second}".format(first=self.switchID, second=key) for key, value in sorted(self.active_links.items()) if value]
+        return ', '.join(sorted_log_string)
